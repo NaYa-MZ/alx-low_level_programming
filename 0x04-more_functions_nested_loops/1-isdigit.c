@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_isdigit - to check for digits
+*_isdigit - checks for digits
 *@c: is the x'ter to be checked
 *Return: 1 on success: 0 if otherwise
 */
@@ -10,5 +10,4 @@ if (c >= 0 && c <= 9)
 return (1);
 else
 return (0);
-
 }
