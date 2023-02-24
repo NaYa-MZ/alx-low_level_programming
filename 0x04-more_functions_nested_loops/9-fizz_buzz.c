@@ -3,7 +3,6 @@
 #include <stdio.h>
 /**
 *main - the main function
-*@i: interger
 *fizz_buzz - prints fizz buzz instead of numbers
 *fizz for multiples of 3
 *buzz for multiples of 5
@@ -18,7 +17,9 @@ char b[] = "Buzz";
 char c[] = "FizzBuzz";
 for (i = 1; i <= 100; i++)
 {
-if ((i % 3 == 0) && (1 % 5 == 0))
+if (i == 100)
+printf("%s ", b);
+else if ((i % 3 == 0) && (1 % 5 == 0))
 printf("%s ", c);
 else if (i % 3 == 0)
 printf("%s ", a);
