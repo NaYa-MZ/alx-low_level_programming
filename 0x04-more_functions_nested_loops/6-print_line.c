@@ -14,7 +14,9 @@ _putchar('\n');
 	else
 	{
 	for (c = 1; c <= n; c++)
+	{
 	_putchar('_');
 	}
 _putchar('\n');
+}
 }
