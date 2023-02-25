@@ -1,12 +1,8 @@
-#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 /**
 *main - the main function
-*fizz_buzz - prints fizz buzz instead of numbers
-*fizz for multiples of 3
-*buzz for multiples of 5
-*fizzbuzz for multiples of both 3 and 5
+*fizz for multiples of 3 and buzz for multiples of 5 and fizzbuzz for both
 *Return: 0
 */
 int main(void)
