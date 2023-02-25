@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 *main - prints largest prime factor
-*Return: void
+*Return: interger
 */
 int main(void)
 {
