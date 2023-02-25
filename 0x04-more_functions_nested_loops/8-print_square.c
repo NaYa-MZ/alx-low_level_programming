@@ -2,7 +2,6 @@
 /**
 *print_square - Prints squares
 *@size: size of the square
-*@#: x'ter to be printed
 *Return: \n if size is 0 or else
 */
 void print_square(int size)
@@ -14,10 +13,9 @@ _putchar('\n');
 }
 else
 {
-for (c = 1; c <= size; c++)
+for (c = 0; c < size; c++)
 {
-_putchar('#');
-for (i = 1; i <= size; i++)
+for (i = 0; i < size; i++)
 {
 _putchar('#');
 }
