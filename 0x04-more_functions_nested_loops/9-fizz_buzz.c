@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-*main - the main function
+*main - the main function prints 1 to 100
 *fizz for multiples of 3 and buzz for multiples of 5 and fizzbuzz for both
 *Return: 0
 */
@@ -14,7 +14,7 @@ char c[] = "FizzBuzz";
 for (i = 1; i <= 100; i++)
 {
 if (i == 100)
-printf("%s ", b);
+printf("%s", b);
 else if ((i % 3 == 0) && (i % 5 == 0))
 printf("%s ", c);
 else if (i % 3 == 0)
@@ -26,5 +26,4 @@ printf("%d ", i);
 }
 printf("\n");
 return (0);
-
 }
