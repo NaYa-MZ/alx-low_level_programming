@@ -3,10 +3,11 @@
 #include <stdio.h>
 
 /**
-  * main - 
-  * @argc: 
-  * @argv: 
-  * Return: 
+  * main - ...
+  * @argc: ...
+  * @argv: ...
+  *
+  * Return: ...
   */
 int main(int argc, char *argv[])
 {

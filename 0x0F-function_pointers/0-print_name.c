@@ -2,8 +2,8 @@
 
 /**
  * print_name - a function that prints a name.
- * @name:he name given
- * @f:function of name
+ * @name: the name given
+ * @f: function of name
  *
  * Rteurn: void
  */
