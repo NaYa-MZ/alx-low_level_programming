@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_listint2 - function that frees a listint_t list and sets the head to null
+ * free_listint2 - func that frees a list and sets the head to null
  * @head: a pointer to the first element of lists
  */
 
@@ -14,7 +14,7 @@ if (head == NULL)
 	return;
 while (*head != NULL)
 	{
-	temp = *head;	
+	temp = *head;
 	head = (*head)->next;
 	free(*head);
 
